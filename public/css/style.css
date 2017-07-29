@@ -1,0 +1,505 @@
+
+/* スライダー編集 */
+.slider_box {
+    height: 250px;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+}
+
+
+
+
+/* topコンテント　LIVE放送スケジュール */
+
+.top_live_schedule h3 {
+    position: relative;
+    top: 24px;
+}
+
+
+/* topコンテント　再生回数の多い先生 */
+
+.top_teacher h3 {
+    position: relative;
+    top: 24px;
+}
+
+
+/* platformページ編集 */
+
+p.content_text {
+    width: 95%;
+    margin: 0 auto;
+    line-height: 150%;
+}
+
+p.content_thumbnail {
+    border: 1px solid;
+    height: 280px;
+    text-align: center;
+}
+
+p.text_continue {
+    text-align: center;
+    background-color: #dcdddd;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 3px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+h2.content_title {
+    border-bottom: 6px double #DCDCDC;
+    width: 68%;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+p.lesson_btn {
+    background-color: #dddddd;
+    width: 70%;
+    margin: 0 auto;
+    padding: 24px 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content_flow h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.platform_left {
+    padding: 0px 80px;
+}
+
+.content_flow01 {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.content_box {
+    margin-bottom: 50px;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+
+p.movie_days {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #dddddd;
+    padding: 5px 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.movie_chapter {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.chapter_box li {
+    list-style: none;
+    text-align: right;
+    padding: 0 10px;
+}
+
+li.chapter_title:before {
+    content: url("../images/text_mark.png");
+    position: relative;
+    top: 3px;
+    padding-right: 6px;
+}
+
+.chapter_box {
+    height: 28px;
+    margin: 6px 0;
+}
+
+li.chapter_title {
+    display: table-cell;
+    float: left;
+}
+
+.platform_right {
+    padding: 0px 30px;
+}
+
+.platform_r_content {
+    margin: 30px 0px;
+}
+
+.platform_right h5 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    border-left: 16px solid;
+    padding-left: 10px;
+}
+
+.presentation_text_box {
+    border: 1px solid;
+    height: 180px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.instructor_box img {
+    float: left;
+    margin: 5px 10px;
+}
+
+.instructor_box {
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.instructor_box p {
+    position: relative;
+    top: 40px;
+}
+
+
+.relation_lecture_box img {
+    float: left;
+    margin: 5px 10px;
+}
+
+.relation_lecture_box {
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.relation_lecture_box p {
+    position: relative;
+    top: 30px;
+}
+
+
+
+/* instructor一覧ページ編集 */
+
+.instructor_search_content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input.instructor_search {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.instructor_head {
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 60px;
+}
+
+li.list_counter  {
+    list-style: none;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+
+.instructor_head .dropdown {
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.instructor_content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.instructor_people {
+    display: block;
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin: 10px 0px;
+}
+
+.instructor_people img {
+    margin-bottom: 10px;
+}
+
+p.instructor_name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.instructor_corp {
+    font-size: 12px;
+}
+
+.instructor_foot {
+    clear: both;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.instructor_foot p {
+    position: relative;
+    top: 6px;
+}
+
+.instructor_foot span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/*カレンダーページ編集*/
+.calender_content {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*動画再生ページ編集*/
+
+.movie_chapter_box:before {
+    content: url(../images/chapter_mark.png);
+    float: left;
+    position: relative;
+    top: -5px;
+    padding-right: 20px;
+    zoom: 70%;
+}
+
+.movie_chapter_box h5 {
+    font-weight: bold;
+}
+
+.movie_chapter_box {
+    margin: 30px 0px;
+}
+
+
+/*マイページ編集*/
+
+.my_account {
+    height: 325px;
+    border: 1px solid #DCDCDC;
+    text-align: center;
+}
+
+.mypage_bottom {
+    height: 360px;
+    border: 1px solid #DCDCDC;
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+
+.my_account img {
+    padding: 5px 5px;
+}
+
+.my_profile {
+    width: 95%;
+}
+
+p.name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p.join_date {
+    margin: 10px 0;
+}
+
+.profile_btn {
+    width: 90%;
+    margin: 0 auto;
+}
+
+p.myprofile_edit {
+    width: 44%;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 5px 10px;
+    float: left;
+    display: inline-block;
+}
+
+p.post_movie {
+    width: 44%;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+.movie_history {
+    height: 160px;
+}
+
+.famas_movie {
+    height: 160px;
+}
+
+.mypage_bottom h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*入会申込みフォーム編集　entry_content  */
+.entry_content h4 {
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+.entry_info span {
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.account_info dt {
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+.profile_info dt {
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+.entry_info dd {
+    padding: 0px 0;
+    display: block;
+    height: 80px;
+}
+
+.entry_info dl {
+    border-top: 1px solid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+input.entry_info_input {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 50px;
+    border-radius: 6px;
+    background-color: #1f99b0;
+    color: #fff;
+    border: none;
+}
+
+input.name_input, input.mail_input, input.pass_input, input.user_input {
+    padding: 3px 5px;
+    margin: 3px 3px;
+}
+
+select.birthday_year, select.birthday_month, select.birthday_day {
+    font-size: 16px;
+    margin: 0px 3px;
+}
+
+input.mail_check, input.prof_check {
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+
+input.entry_info_input:hover {
+    background-color: #ffeb3b;
+}
+
+
+
+/*ここから追加部分*/
+
+/*----ここから　　top_page LIVEスライド部分*/
+/*---index.html　の101行目以降の部分*/
+
+img.live_thumbnail {
+    width: 160px;
+    height: auto;
+    display: block;
+}
+
+p.live_date {
+    background-color: #454545;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 3px;
+    border-radius: 20px;
+    font-size: 12px;
+    float: left;
+}
+
+p.live_time {
+    padding-top: 15px;
+}
+
+.live_calender {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+img.famous_button {
+    position: relative;
+    left: 35%;
+    bottom: 115px;
+}
+
+p.live_title {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+
+/* top-slider famous teacher */
+
+.card-box {
+    padding: 10px 0;
+    margin: 10px 10px;
+}
+
+.bg-custom.pull-in-card.p-20.widget-box-two.m-b-0.m-t-30.list-inline.text-center.row {
+    margin: 0 0;
+    margin-top: 20px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+h4.text-white {
+    text-align: initial;
+    font-size: 14px;
+}
